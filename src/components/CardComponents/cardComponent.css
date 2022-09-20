@@ -1,0 +1,11 @@
+.contenedor {
+    width: 300px;
+    margin: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor img {
+    width: 200px;
+    border-radius: 10px;
+}

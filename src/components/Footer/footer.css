@@ -1,0 +1,25 @@
+.footer {
+    background-color: black;
+    height: 4.5em;
+    display: grid;
+    grid-template-areas: 
+    "empty name copy";
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.footer h1 {
+    font-family:'Comforter', cursive ;
+    font-weight: bolder;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    grid-area: name;
+}
+
+.footer p {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    grid-area: copy;
+}

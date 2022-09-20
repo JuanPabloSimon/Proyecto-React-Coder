@@ -1,0 +1,9 @@
+.itemList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    margin: 0 0 2em 0;
+    padding: 0 10em;
+    justify-items: center;
+    height: fit-content;
+}

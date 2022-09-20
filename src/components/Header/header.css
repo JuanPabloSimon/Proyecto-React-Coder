@@ -1,0 +1,19 @@
+.Header {
+    background-image: url("../assets/fondo2.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 297px;
+    padding: 48px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header h1 {
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+.text-gray {
+    color: #5D737E;
+}

@@ -1,0 +1,69 @@
+.ContainerForm {
+    text-align: center;
+    margin-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerForm h1 {
+    text-align: center;
+    padding: 0.5em 0;
+    border-bottom: solid 1px black;
+    background: #D1A490;
+}
+
+.FormFinish {
+    margin: 2em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "name lastName"
+    "email email"
+    "error error"
+    "submit submit" 
+    ;
+    
+}
+
+.FormFinish button {
+    background-color: #63E3BD;
+    border-radius: 10px;
+    border: none;
+    height: 2em;
+    transition: all ease-in-out 0.2s;
+}
+
+.FormFinish button:hover {
+    background-color: black;
+    color: #FFF;
+}
+
+.name {
+    grid-area: name;
+    justify-self: right;
+}
+
+
+.LastName {
+    grid-area: lastName;
+    justify-self: left;
+}
+
+.Email {
+    grid-area: email;
+    justify-self: center;
+}
+
+.submit {
+    grid-area: submit;
+    justify-self: center;
+}
+
+.textError {
+    grid-area: error;
+    justify-self: center;
+}
+.textError p {
+    color: red;
+    font-weight: bold;
+}

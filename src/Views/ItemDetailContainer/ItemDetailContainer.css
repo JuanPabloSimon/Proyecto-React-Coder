@@ -1,0 +1,7 @@
+.detailContainer {
+    margin: 1em 15em;
+    border-left: solid 0.5px gray;
+    border-right: solid 0.5px gray;
+    padding: 2em;
+    height: 76.4vh;
+}

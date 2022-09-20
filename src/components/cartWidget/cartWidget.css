@@ -1,0 +1,17 @@
+.normal {
+    margin-right: 0.8em;
+}
+
+.cartWidget {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid gray;
+    padding: 0.2em;
+    background-color: #D1A490;
+}
+
+.cantidadTotal {
+    margin-bottom: 0;
+}
+

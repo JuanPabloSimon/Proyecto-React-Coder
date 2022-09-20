@@ -1,0 +1,74 @@
+.cartItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 0.5px gray;
+    border-radius: 10px;
+    margin-top: 1em;
+    width: 300px;
+}
+
+.text {
+    margin: 0;
+}
+
+.imgProdCart {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.cartItem h2 {
+    background-color: blanchedalmond;
+    width: 100%;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    text-align: center;
+    height: 2.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.buttonCart {
+    width: 100%;
+    height: 2.5em;
+    background-color: rgb(208, 86, 86);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    transition: all ease-in-out 0.2s;
+}
+
+.buttonCart:hover {
+    background-color: rgb(255, 3, 3);
+    color: #FFF;
+}
+
+.buttonCart2 {
+    width: 100%;
+    height: 2.5em;
+    border: 0px;
+    background-color: #A9DBB8;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    transition: all ease-in-out 0.2s;
+}
+
+.buttonCart2:hover {
+    background-color: rgb(15, 187, 58);
+    color: #FFF;
+}
+
+.linkVolver {
+    width: 100%;
+    height: 2.5em;
+    border: 0px;
+    background-color: #A9DBB8;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    transition: all ease-in-out 0.2s;
+}

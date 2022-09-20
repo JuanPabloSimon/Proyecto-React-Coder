@@ -1,0 +1,126 @@
+.counter {
+    display: grid;
+    grid-template-areas: 
+    "decrement quanity increment addToCart"
+    "decrement quanity increment deleteOfCart"
+    "continue continue continue finish" ;
+    grid-template-columns: 3.5em 4em 3.5em 11em;
+    grid-template-rows: 2em 2em 2em 2em;
+    width: 100%;
+}
+.decrement {
+    grid-area: decrement;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: solid 0.3px gray;
+    font-weight: bolder;
+    font-size: 1.5em;
+    /* color: #DAFFEF; */
+    background-color: #fff;
+    transition: all ease-in-out 0.2s;
+}
+
+.decrement:hover {
+    background-color: rgb(184, 45, 45);
+}
+
+.increment {
+    grid-area: increment;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 0.3px gray;
+    font-weight: bolder;
+    font-size: 1.5em;
+    background-color: #FFF;
+    transition: all ease-in-out 0.2s;
+}
+
+.increment:hover {
+    background-color: rgb(56, 197, 56);
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: quanity;
+    border: solid 0.3px gray;
+    margin: 0;
+    height: 40px;
+    font-size: 1.5em;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: center;
+}
+.quantityError {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: quanity;
+    border: solid 0.3px rgb(255, 0, 0);
+    margin: 0;
+    height: 40px;
+    font-size: 1.5em;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: center;
+}
+
+
+
+.addToCart {
+    grid-area: addToCart;
+    border: solid 0.3px gray;
+    background-color: #E4BE9E;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+
+.deleteOfCart {
+    grid-area: deleteOfCart;
+    border: solid 0.3px gray;
+    background-color: #E4BE9E;
+    border-radius: 10px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+.continue {
+    grid-area: continue ;
+    width: 100%;
+    border: solid 0.3px gray;
+    /* background-color: #E4BE9E; */
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: bold;
+    margin-top: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+.finish {
+    grid-area: finish ;
+    border: solid 0.3px gray;
+    border-radius: 10px;
+    /* background-color: #E4BE9E; */
+    background-color: white;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.buttonDetail:hover {
+    transition: all ease-in-out 0.2s;
+    color: white;
+    background-color: black;
+}
