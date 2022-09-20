@@ -2,7 +2,7 @@
   "name": "proyect_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://JuanPabloSimon.github.io/Proyecto-React-Coder",
+  "homepage": "http://JuanPabloSimon.github.io/",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
